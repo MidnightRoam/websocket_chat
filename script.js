@@ -43,7 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // After send clear the input field
         messageText.value = '';
     }
-
+    
+    /* Event listener 'change' means press to 'Enter' on keyboard */
     sendButton.addEventListener('click', sendMessage);
     messageText.addEventListener('change', sendMessage);
 
