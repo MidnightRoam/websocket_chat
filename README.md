@@ -1,2 +1,2 @@
-# websocket_chat
+# Websocket Chat
 Simple chat written on native Javascript + Python (websocket server)
